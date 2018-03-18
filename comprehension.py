@@ -1,3 +1,5 @@
+#This file is game about guessing the random number
+
 import random #using module name you can access the function .random, without writing it on your own
 
 guesses_taken = 0 #assign value 0 to variable
@@ -29,5 +31,5 @@ if guess == number: #checking if variables are equal
     print('Good job, ' + myName + '! You guessed my number in ' + guesses_taken + ' guesses!') #outputs text and two var.
 
 if guess != number: #checking if variables are not equal
-    number = str(number) #if they are, set type of var number to an string
+    number = str(number) #if they are not equal, set type of var number to an string
     print('Nope. The number I was thinking of was ' + number) #ouputs text
